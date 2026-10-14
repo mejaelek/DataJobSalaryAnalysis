@@ -9,7 +9,7 @@
 
 This project analyses real salary data for data science, analytics and machine-learning jobs. I wrote it to practise the everyday workflow of a data analyst: load a raw CSV file, inspect and clean it, ask clear questions, answer them with Pandas, and present the evidence in charts.
 
-**Dataset:** [FILL IN: dataset name](FILL-IN-KAGGLE-LINK) on Kaggle, [FILL IN: number of rows] rows covering [FILL IN: years]. Each row is one salary record with the job title, experience level, salary in USD, remote-work ratio, company size and country. [FILL IN: one sentence on where the data comes from, copied from the dataset page.]
+**Dataset:** [Data Science Salaries 2023](https://www.kaggle.com/datasets/arnabchaki/data-science-salaries-2023) on Kaggle, shared by RandomArnab: 3,755 rows covering [2023]. Each row is one salary record with the job title, experience level, salary in USD, remote-work ratio, company size and country. [The dataset page describes the records as data science job salaries, and the author credits no further source]. My analysis removes 1,171 exact duplicate rows, leaving 2,584 records. on Kaggle, [3,755] rows covering [11]. Each row is one salary record with the job title, experience level, salary in USD, remote-work ratio, company size and country. [on the Kaggle page.]
 
 **Why I wrote it:** I am building towards a career as a data analyst / engineer / scientist, and I wanted to see what this market actually pays and how pay changes with experience, job title and remote work. It also gave me hands-on practice with Pandas and Matplotlib.
 
@@ -19,7 +19,7 @@ This project analyses real salary data for data science, analytics and machine-l
 2. Create and activate a virtual environment, then run `pip install -r requirements.txt`.
 3. Run `python salary_analysis.py`. Tables print to the terminal and charts are saved to the `charts/` folder.
 
-[Software Demo Video](FILL-IN-YOUTUBE-LINK)
+[Software Demo Video](https://youtu.be/GUhYZl5B0jQ)
 
 # Data Analysis Results
 
@@ -29,7 +29,7 @@ This project analyses real salary data for data science, analytics and machine-l
 
 [FILL IN: your answer, with the actual numbers from the program output and one caveat such as sample size.]
 
-![Salary by experience level](charts/salary_by_experience.png)
+![Salary by experience ](charts/salary_by_experience.png)
 
 **Question 2: Which job titles appear most often, and which of those pay the highest median salary?**
 
