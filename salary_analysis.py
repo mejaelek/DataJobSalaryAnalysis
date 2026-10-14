@@ -73,7 +73,14 @@ def load_data(path):
         raise SystemExit(f"The file is missing expected columns: {missing}")
 
     return df
+    print(df["remote_ratio"].value_counts().to_string())
 
+    if "work_year" in df.columns:                      # <- new: starts with 4 spaces
+        print("\nRecords per work year:")
+        print(df["work_year"].value_counts().sort_index().to_string())
+
+
+# ---------- 3. CLEAN        <- the next section starts here
 
 # ------------------------------------------------------------------ 2. INSPECT
 def inspect_data(df):
